@@ -51,6 +51,7 @@ nav {
 .nav-links {
     display: flex;
     list-style: none;
+    margin-top: 2.3rem;
 }
 
 .nav-links li {
@@ -90,6 +91,10 @@ nav {
     padding: 5rem 2rem;
 }
 
+.am {
+    font-size: 2.5rem;
+}
+
 .hero-content h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
@@ -126,7 +131,7 @@ nav {
 }
 
 .about p {
-    font-size: 1.1rem;
+    font-size: 1.09rem;
     color: #666;
 }
 
@@ -154,6 +159,22 @@ nav {
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
+}
+
+h3{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+.center{
+    text-align: center;
+}
+
+.centers{
+    text-align: center;
 }
 
 .project-card:hover {
@@ -257,6 +278,27 @@ footer {
         padding: 1rem;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
+
+    .am {
+        font-size: 1.5rem;
+    }
+
+    p{
+        text-align: justify;
+    }
+
+    h3{
+        text-align: center;
+    }
+
+    .center{
+        text-align: justify;
+    }
+
+    .centers{
+        text-align: center;
+    }
+
 
     .fogo{
         margin-left: 0.5rem;
